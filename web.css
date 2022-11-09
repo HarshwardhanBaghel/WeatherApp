@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #231942;
+    font-family: 'Poppins','sans-serif';
+    background-color: #5a4085;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    color: #231942;
+}
+
+.search{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 3rem;
+    font-size: x-large;
+    border: none;
+}
+
+.display{
+    border: 2px solid black;
+    height: 18rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.search-btn{
+    
+    padding: 11px;
+    border-radius: 8px;
+    width: 7rem;
+    border: none;
+    background-color: #0d1321;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+
+}
+
+.city{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    margin: 0;
+    color: #00000080;
+}
+
+.condition{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.condition h5{
+    margin: 0;
+}
+.temp{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.degree,.chill,.humid,.sunrise,.sunset{
+    display: contents;
+}
