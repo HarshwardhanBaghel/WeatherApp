@@ -29,7 +29,6 @@ function searchbtn()
             }
         }).then(res => res.json())
           .then(data => {
-            console.log(data)
             const temp = (data.current_observation.condition.temperature - 32)*5/9
             cond.innerText = data.current_observation.condition.text ? data.current_observation.condition.text : " " 
             degree.innerText = temp.toFixed(1) ? temp.toFixed(1) : " " 
