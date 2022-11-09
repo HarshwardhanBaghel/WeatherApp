@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+
+<body>
+    <main>
+        <div class="main-con">
+            <div class="heading">
+                <h1>WEATHER APP</h1>
+            </div>
+            <div class="container">
+                <input class="search" type="search" placeholder="Enter City" id="search" autocomplete="off">
+                <div class="btn">
+                    <button class="search-btn" onclick="searchbtn()">Search</button>
+                </div>
+                <div class="display">
+                    <h1 class="city" id="city">----</h1>
+                    <span class="condition" id="condition">----</span>
+                    <span class="temp">
+                       Temp : <span class="degree" id="degree"> ---- </span><span> &#8451;</span>
+                    </span>
+                    <span class="temp">
+                        Chill : <span class="chill" id="chill"> ---- </span>
+                    </span>
+                    <span class="temp">
+                        Humidity : <span class="humid" id="humid"> ---- </span><span>&percnt;</span>
+                    </span>
+                    <span class="temp">
+                        Sunrise : <span class="sunrise" id="sunrise"> ---- </span>
+                    </span>
+                    <span class="temp">
+                        Sunset : <span class="sunset" id="sunset"> ---- </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="web.js"></script>
+</body>
+
+</html>
